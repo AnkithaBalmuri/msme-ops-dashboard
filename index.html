@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Coffee Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {"50":"#f0f9f6","100":"#dff2ec","200":"#bde6d9","300":"#93d6c2","400":"#65c1a7","500":"#42a98e","600":"#00704A","700":"#257b60","800":"#21634f","900":"#1d5141","950":"#0f2c24"}
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "zustand": "https://aistudiocdn.com/zustand@^4.5.4",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-50">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

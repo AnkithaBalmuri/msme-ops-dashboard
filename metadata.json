@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Starbucks Franchise Co-Pilot",
+  "description": "An AI-powered financial co-pilot for Starbucks franchise owners to manage invoices, vendors, and cash flow.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
